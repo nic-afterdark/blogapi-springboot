@@ -1,0 +1,23 @@
+# Compiled
+target/
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+.mvn/
+
+# OS
+.DS_Store
+
+# Secrets — IMPORTANT
+src/main/resources/application.yml
+application-local.yml
+.env
+
+# Logs
+*.log
+
+# Maven
+mvnw
+mvnw.cmd
